@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f5f2f8">
+<title>耳边档案 · 每周播客推荐</title>
+<style>
+:root{color-scheme:light;--bg:#f5f2f8;--ink:#291f37;--muted:#655b70;--line:#e4dced;--accent:#58368a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,"PingFang SC",sans-serif}
+main{width:min(100% - 32px,680px);margin:clamp(24px,7vw,64px) auto}
+h1,h2,p{margin:0}
+h1{font-size:clamp(36px,8vw,58px);line-height:1.15;letter-spacing:-.055em}
+header p{margin:6px 0 22px;color:var(--muted)}
+.controls{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+label{font-size:14px;color:var(--muted)}
+select{min-height:44px;border:1px solid var(--line);border-radius:10px;background:white;color:var(--ink);font:inherit;padding:5px 12px}
+#status:empty{display:none}
+#status{margin-bottom:12px;color:var(--muted)}
+#episodes{display:grid;gap:10px}
+.card{display:block;padding:15px 17px;border:1px solid var(--line);border-radius:15px;background:white;color:inherit;text-decoration:none}
+.card:first-child{background:#ebe2f7;border-color:#decef0}
+.card:hover{border-color:#9c78ca}
+.card p{color:var(--muted);font-size:14px}
+.card .show{color:var(--accent);font-weight:650;font-size:13px}
+.card h2{font-size:18px;margin:3px 0 4px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+<main>
+<header><h1>耳边档案</h1><p>每周五档小宇宙播客</p></header>
+<div class="controls"><label for="week">往期推荐</label><select id="week" disabled></select></div>
+<p id="status" role="status"></p>
+<section id="episodes" aria-label="推荐单集"></section>
+</main>
+<script>
+const week = document.querySelector('#week');
+const status = document.querySelector('#status');
+const episodes = document.querySelector('#episodes');
+let editions = [];
+let request = 0;
+
+async function getJSON(path) {
+  const response = await fetch(path, {cache: 'no-cache'});
+  if (!response.ok) throw new Error('请求失败');
+  return response.json();
+}
+
+async function show() {
+  const date = editions.includes(week.value) ? week.value : editions[0];
+  if (!date) return;
+  const id = ++request;
+  status.textContent = '正在加载…';
+  episodes.replaceChildren();
+  try {
+    const items = await getJSON('./week-' + date + '.json');
+    if (id !== request) return;
+    for (const item of items) {
+      const link = document.createElement('a');
+      link.className = 'card';
+      link.href = item.url;
+      link.target = '_blank';
+      link.rel = 'noreferrer';
+      const podcast = document.createElement('p');
+      podcast.className = 'show';
+      podcast.textContent = item.podcast;
+      const title = document.createElement('h2');
+      title.textContent = item.episode;
+      const reason = document.createElement('p');
+      reason.textContent = item.reason;
+      link.append(podcast, title, reason);
+      episodes.append(link);
+    }
+    const url = new URL(location.href);
+    url.searchParams.set('week', date);
+    history.replaceState(null, '', url);
+    status.textContent = '';
+  } catch {
+    if (id === request) status.textContent = '这期加载失败，请刷新或切换到其他期。';
+  }
+}
+
+async function initialize() {
+  status.textContent = '正在加载…';
+  try {
+    editions = await getJSON('./weeks-index.json');
+    if (!editions.length) {
+      status.textContent = '暂无推荐。';
+      return;
+    }
+    week.replaceChildren(...editions.map(date => new Option(date, date)));
+    const selected = new URL(location.href).searchParams.get('week');
+    week.value = editions.includes(selected) ? selected : editions[0];
+    week.disabled = false;
+    await show();
+  } catch {
+    status.textContent = '目录加载失败，请刷新页面。';
+  }
+}
+week.addEventListener('change', show);
+initialize();
+</script>
+</html>
