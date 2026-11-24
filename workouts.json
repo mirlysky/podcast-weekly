@@ -1,0 +1,1206 @@
+{
+  "timeZone": "Asia/Tokyo",
+  "through": "2026-11-23",
+  "weeks": [
+    {
+      "start": "2026-11-23",
+      "end": "2026-11-29",
+      "outdoorIncomplete": false,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 1,
+          "seconds": 2644.257,
+          "kcal": 265.312,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-11-16",
+      "end": "2026-11-22",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 4,
+          "seconds": 8801.211,
+          "kcal": 951.201,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 1,
+          "seconds": 4171.207,
+          "kcal": 683.021,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-11-09",
+      "end": "2026-11-15",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 2,
+          "seconds": 4607.106,
+          "kcal": 418.621,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 4,
+          "seconds": 19172.983,
+          "kcal": 2271.027,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-11-02",
+      "end": "2026-11-08",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 6912.342,
+          "kcal": 859.926,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 2,
+          "seconds": 7282.638,
+          "kcal": 925.091,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-10-26",
+      "end": "2026-11-01",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 6398.741,
+          "kcal": 775.324,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 3,
+          "seconds": 11491.672,
+          "kcal": 1730.507,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-10-19",
+      "end": "2026-10-25",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 4,
+          "seconds": 8246.002,
+          "kcal": 889.746,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 3,
+          "seconds": 13279.673,
+          "kcal": 1919.265,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-10-12",
+      "end": "2026-10-18",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 6344.517,
+          "kcal": 776.436,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 4,
+          "seconds": 15084.899,
+          "kcal": 2201.519,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-10-05",
+      "end": "2026-10-11",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 2,
+          "seconds": 4522.877,
+          "kcal": 459.806,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 3,
+          "seconds": 13733.074,
+          "kcal": 2174.614,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-09-28",
+      "end": "2026-10-04",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 2,
+          "seconds": 8963.157,
+          "kcal": 1324.559,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-09-21",
+      "end": "2026-09-27",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 2,
+          "seconds": 4088.176,
+          "kcal": 450.869,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-09-14",
+      "end": "2026-09-20",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 5890.384,
+          "kcal": 637.095,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 3,
+          "seconds": 9696.76,
+          "kcal": 1576.725,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-09-07",
+      "end": "2026-09-13",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 6203.537,
+          "kcal": 698.43,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 2,
+          "seconds": 7410.696,
+          "kcal": 1272.937,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-08-31",
+      "end": "2026-09-06",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 4,
+          "seconds": 8461.968,
+          "kcal": 1055.338,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 3,
+          "seconds": 10442.003,
+          "kcal": 1818.57,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-08-24",
+      "end": "2026-08-30",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 6242.665,
+          "kcal": 712.871,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 4,
+          "seconds": 14796.273,
+          "kcal": 1954.06,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-08-17",
+      "end": "2026-08-23",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 7158.742,
+          "kcal": 800.324,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 3,
+          "seconds": 8813.194,
+          "kcal": 1357.83,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-08-10",
+      "end": "2026-08-16",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 6934.185,
+          "kcal": 769.868,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 3,
+          "seconds": 10833.942,
+          "kcal": 1664.602,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-08-03",
+      "end": "2026-08-09",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 6631.137,
+          "kcal": 788.403,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 3,
+          "seconds": 13132.739,
+          "kcal": 2184.364,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-07-27",
+      "end": "2026-08-02",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 6504.825,
+          "kcal": 767.816,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 4,
+          "seconds": 14760.878,
+          "kcal": 2209.014,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-07-20",
+      "end": "2026-07-26",
+      "outdoorIncomplete": false,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 4,
+          "seconds": 7265.171,
+          "kcal": 800.767,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 5,
+          "seconds": 15838.827,
+          "kcal": 2287.85,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-07-13",
+      "end": "2026-07-19",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 6476.794,
+          "kcal": 734.232,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 3,
+          "seconds": 12326.403,
+          "kcal": 1853.245,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-07-06",
+      "end": "2026-07-12",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 2,
+          "seconds": 4657.366,
+          "kcal": 505.459,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 6,
+          "seconds": 16377.83,
+          "kcal": 2570.542,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-06-29",
+      "end": "2026-07-05",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 6681.454,
+          "kcal": 757.247,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 2,
+          "seconds": 9403.487,
+          "kcal": 1299.268,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-06-22",
+      "end": "2026-06-28",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 7225.809,
+          "kcal": 820.559,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 1,
+          "seconds": 4680.453,
+          "kcal": 791.117,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-06-15",
+      "end": "2026-06-21",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 1,
+          "seconds": 2605.425,
+          "kcal": 298.748,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 2,
+          "seconds": 7233.574,
+          "kcal": 1154.4,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-06-08",
+      "end": "2026-06-14",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 2,
+          "seconds": 1990.479,
+          "kcal": 194.518,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 1,
+          "seconds": 5734.05,
+          "kcal": 876.775,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-06-01",
+      "end": "2026-06-07",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 4,
+          "seconds": 9050.194,
+          "kcal": 1042.782,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 2,
+          "seconds": 7146.139,
+          "kcal": 1196.875,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-05-25",
+      "end": "2026-05-31",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 6447.495,
+          "kcal": 740.362,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 1,
+          "seconds": 3716.025,
+          "kcal": 631.954,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-05-18",
+      "end": "2026-05-24",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 2,
+          "seconds": 4689.879,
+          "kcal": 494.255,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 4,
+          "seconds": 15372.764,
+          "kcal": 2428.353,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-05-11",
+      "end": "2026-05-17",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 2,
+          "seconds": 4933.337,
+          "kcal": 543.905,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 1,
+          "seconds": 3642.034,
+          "kcal": 639.371,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 7424.868,
+          "kcal": 800.249,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 3,
+          "seconds": 10724.83,
+          "kcal": 1749.219,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 4562.574,
+          "kcal": 482.992,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 4,
+          "seconds": 17768.64,
+          "kcal": 2506.499,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-04-20",
+      "end": "2026-04-26",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 6633.649,
+          "kcal": 804.683,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-04-13",
+      "end": "2026-04-19",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 7283.714,
+          "kcal": 888.075,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 3,
+          "seconds": 16520.203,
+          "kcal": 2557.992,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-04-06",
+      "end": "2026-04-12",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 7052.308,
+          "kcal": 816.204,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 4,
+          "seconds": 18811.292,
+          "kcal": 2792.52,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-03-30",
+      "end": "2026-04-05",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 6248.949,
+          "kcal": 750.67,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 3,
+          "seconds": 13269.158,
+          "kcal": 2052.053,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-03-23",
+      "end": "2026-03-29",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 1,
+          "seconds": 2490.291,
+          "kcal": 332.992,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 4,
+          "seconds": 18506.549,
+          "kcal": 2519.847,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-03-16",
+      "end": "2026-03-22",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 4,
+          "seconds": 6824.546,
+          "kcal": 804.687,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 3,
+          "seconds": 13250.998,
+          "kcal": 2206.806,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-03-09",
+      "end": "2026-03-15",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 4,
+          "seconds": 6928.857,
+          "kcal": 839.009,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 3,
+          "seconds": 8994.556,
+          "kcal": 1211.427,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-03-02",
+      "end": "2026-03-08",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 2,
+          "seconds": 3052.293,
+          "kcal": 292.446,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 1,
+          "seconds": 5329.799,
+          "kcal": 816.801,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-02-23",
+      "end": "2026-03-01",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 7203.137,
+          "kcal": 853.288,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 4,
+          "seconds": 17042.015,
+          "kcal": 2481.587,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-02-16",
+      "end": "2026-02-22",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 1,
+          "seconds": 2567.071,
+          "kcal": 264.156,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 1,
+          "seconds": 4770.4,
+          "kcal": 759.596,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-02-09",
+      "end": "2026-02-15",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 4,
+          "seconds": 15608.5,
+          "kcal": 1515.105,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 5,
+          "seconds": 21640.485,
+          "kcal": 2998.65,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-02-02",
+      "end": "2026-02-08",
+      "outdoorIncomplete": true,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 2,
+          "seconds": 4435.531,
+          "kcal": 445.311,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 5,
+          "seconds": 21999.208,
+          "kcal": 3138.888,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-01-26",
+      "end": "2026-02-01",
+      "outdoorIncomplete": false,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 1,
+          "seconds": 2229.416,
+          "kcal": 214.372,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 3,
+          "seconds": 11553.788,
+          "kcal": 1513.851,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-01-19",
+      "end": "2026-01-25",
+      "outdoorIncomplete": false,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 7876.478,
+          "kcal": 828.029,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 1,
+          "seconds": 14622.189,
+          "kcal": 1343.301,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-01-12",
+      "end": "2026-01-18",
+      "outdoorIncomplete": false,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 7252.134,
+          "kcal": 879.092,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 4,
+          "seconds": 19327.603,
+          "kcal": 2845.786,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2026-01-05",
+      "end": "2026-01-11",
+      "outdoorIncomplete": false,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 3,
+          "seconds": 7052.649,
+          "kcal": 771.137,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 2,
+          "seconds": 14129.041,
+          "kcal": 1616.437,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    },
+    {
+      "start": "2025-12-29",
+      "end": "2026-01-04",
+      "outdoorIncomplete": false,
+      "activities": {
+        "functionalStrengthTraining": {
+          "count": 1,
+          "seconds": 2567.673,
+          "kcal": 273.569,
+          "missingEnergy": 0
+        },
+        "skatingSports": {
+          "count": 3,
+          "seconds": 15344.71,
+          "kcal": 2158.314,
+          "missingEnergy": 0
+        },
+        "outdoorWalking": {
+          "count": 0,
+          "seconds": 0,
+          "kcal": 0,
+          "missingEnergy": 0
+        }
+      }
+    }
+  ]
+}

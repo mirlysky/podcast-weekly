@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#f5f2f8">
-<title>耳边档案 · 每周播客推荐</title>
+<title>耳边档案 · 播客与运动统计</title>
 <style>
 :root{color-scheme:light;--bg:#f5f2f8;--ink:#291f37;--muted:#655b70;--line:#e4dced;--accent:#58368a}
 *{box-sizing:border-box}
@@ -37,9 +37,24 @@ select{min-height:44px;border:1px solid var(--line);border-radius:10px;backgroun
 .card .show{color:var(--accent);font-weight:650;font-size:13px}
 .card h2{font-size:18px;margin:3px 0 4px}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+[role=tablist]{display:flex;gap:8px;margin-bottom:22px}
+[role=tab]{min-height:44px;padding:6px 14px;border:1px solid var(--line);border-radius:10px;background:white;color:var(--ink);font:inherit;cursor:pointer}
+[role=tab][aria-selected=true]{background:var(--accent);color:white;border-color:var(--accent)}
+.workout-meta,#workout-status{color:var(--muted);font-size:14px;margin-bottom:12px}
+.workout-tables{display:grid;gap:8px}
+.workout-tables table{width:100%;background:white;border:1px solid var(--line);border-radius:14px;border-spacing:0;text-align:left}
+.workout-tables th,.workout-tables td{padding:6px 12px;width:50%}
+.workout-tables th{color:var(--muted);font-size:14px}
+.workout-tables caption{text-align:left;font-weight:650;padding:8px 0 5px}
+#workout-body dd{font-size:clamp(15px,3.8vw,26px)}
 </style>
 <main>
 <header><h1>耳边档案</h1><p>每周五档小宇宙播客</p></header>
+<div role="tablist" aria-label="栏目">
+<button id="podcast-tab" type="button" role="tab" aria-controls="podcasts" aria-selected="true">小宇宙</button>
+<button id="workout-tab" type="button" role="tab" aria-controls="workouts" aria-selected="false" tabindex="-1">运动统计</button>
+</div>
+<div id="podcasts" role="tabpanel" aria-labelledby="podcast-tab" tabindex="0">
 <section aria-labelledby="recommendations-title">
 <h2 class="section-title" id="recommendations-title">本周推荐</h2>
 <div class="controls"><label for="week">往期推荐</label><select id="week" disabled></select></div>
@@ -56,6 +71,20 @@ select{min-height:44px;border:1px solid var(--line);border-radius:10px;backgroun
 <div><dt>标记听完</dt><dd id="completion-rate"></dd></div>
 </dl>
 <div class="ranking"><h3>常听节目</h3><ul id="ranking"></ul></div>
+</div>
+</section>
+</div>
+<section id="workouts" role="tabpanel" aria-labelledby="workout-tab" tabindex="0" hidden>
+<div class="controls"><label for="workout-week">统计周</label><select id="workout-week" disabled></select></div>
+<p id="workout-meta" class="workout-meta"></p>
+<p id="workout-status" role="status"></p>
+<div id="workout-body" hidden>
+<dl class="metrics">
+<div><dt>活动消耗</dt><dd id="workout-energy"></dd></div>
+<div><dt>运动时间</dt><dd id="workout-duration"></dd></div>
+<div><dt>运动次数</dt><dd id="workout-count"></dd></div>
+</dl>
+<div class="workout-tables" id="workout-tables"></div>
 </div>
 </section>
 </main>
@@ -157,4 +186,5 @@ week.addEventListener('change', show);
 showStats();
 initialize();
 </script>
+<script src="./workouts.js" defer></script>
 </html>
