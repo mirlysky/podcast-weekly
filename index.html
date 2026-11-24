@@ -17,7 +17,19 @@ label{font-size:14px;color:var(--muted)}
 select{min-height:44px;border:1px solid var(--line);border-radius:10px;background:white;color:var(--ink);font:inherit;padding:5px 12px}
 #status:empty{display:none}
 #status{margin-bottom:12px;color:var(--muted)}
-#episodes{display:grid;gap:10px}
+#episodes{display:grid;grid-auto-flow:column;grid-auto-columns:min(78%,260px);gap:10px;overflow-x:auto;overscroll-behavior-inline:contain;scroll-snap-type:x mandatory;padding:3px 3px 12px;scrollbar-color:#b395d5 transparent}
+#episodes:focus-visible{outline-offset:0}
+.card{scroll-snap-align:start}
+.section-title{margin:0 0 10px;font-size:21px}
+.stats{margin-top:28px}
+.metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:0 0 12px}
+.metrics div,.ranking{background:white;border:1px solid var(--line);border-radius:14px;padding:12px}
+.metrics dt,.rank-row span:last-child{font-size:13px;color:var(--muted)}
+.metrics dd{margin:0;font-size:clamp(20px,5vw,32px);font-weight:700;font-variant-numeric:tabular-nums}
+.ranking h3{margin:0 0 8px;font-size:16px}
+#ranking{list-style:none;margin:0;padding:0}
+.rank-row{display:grid;grid-template-columns:1fr auto;gap:3px 8px;margin:7px 0}
+.rank-row progress{grid-column:1/-1;width:100%;height:6px;accent-color:#936abb}
 .card{display:block;padding:15px 17px;border:1px solid var(--line);border-radius:15px;background:white;color:inherit;text-decoration:none}
 .card:first-child{background:#ebe2f7;border-color:#decef0}
 .card:hover{border-color:#9c78ca}
@@ -28,9 +40,24 @@ select{min-height:44px;border:1px solid var(--line);border-radius:10px;backgroun
 </style>
 <main>
 <header><h1>耳边档案</h1><p>每周五档小宇宙播客</p></header>
+<section aria-labelledby="recommendations-title">
+<h2 class="section-title" id="recommendations-title">本周推荐</h2>
 <div class="controls"><label for="week">往期推荐</label><select id="week" disabled></select></div>
 <p id="status" role="status"></p>
-<section id="episodes" aria-label="推荐单集"></section>
+<div id="episodes" role="region" tabindex="0" aria-label="推荐单集，可横向滚动"></div>
+</section>
+<section class="stats" aria-labelledby="stats-title">
+<h2 class="section-title" id="stats-title">累计收听统计</h2>
+<p id="stats-status" role="status"></p>
+<div id="stats-body" hidden>
+<dl class="metrics">
+<div><dt>入档单集</dt><dd id="episode-count"></dd></div>
+<div><dt>节目</dt><dd id="podcast-count"></dd></div>
+<div><dt>标记听完</dt><dd id="completion-rate"></dd></div>
+</dl>
+<div class="ranking"><h3>常听节目</h3><ul id="ranking"></ul></div>
+</div>
+</section>
 </main>
 <script>
 const week = document.querySelector('#week');
@@ -51,6 +78,8 @@ async function show() {
   const id = ++request;
   status.textContent = '正在加载…';
   episodes.replaceChildren();
+  episodes.scrollLeft = 0;
+  document.querySelector('#recommendations-title').textContent = date === editions[0] ? '本周推荐' : '往期推荐';
   try {
     const items = await getJSON('./week-' + date + '.json');
     if (id !== request) return;
@@ -96,7 +125,36 @@ async function initialize() {
     status.textContent = '目录加载失败，请刷新页面。';
   }
 }
+async function showStats() {
+  try {
+    const stats = await getJSON('./stats.json');
+    const format = new Intl.NumberFormat('zh-CN');
+    document.querySelector('#episode-count').textContent = format.format(stats.episodes);
+    document.querySelector('#podcast-count').textContent = format.format(stats.podcasts);
+    document.querySelector('#completion-rate').textContent = stats.episodes ? stats.completion_rate + '%' : '—';
+    const ranking = document.querySelector('#ranking');
+    for (const [name, count] of stats.top_podcasts) {
+      const row = document.createElement('li');
+      row.className = 'rank-row';
+      const label = document.createElement('span');
+      label.textContent = name;
+      const total = document.createElement('span');
+      total.textContent = format.format(count) + ' 集';
+      const bar = document.createElement('progress');
+      bar.max = stats.top_podcasts[0][1];
+      bar.value = count;
+      bar.setAttribute('aria-label', name + '入档单集');
+      row.append(label, total, bar);
+      ranking.append(row);
+    }
+    document.querySelector('#stats-body').hidden = false;
+  } catch {
+    document.querySelector('#stats-status').textContent = '统计暂时无法加载。';
+  }
+}
+
 week.addEventListener('change', show);
+showStats();
 initialize();
 </script>
 </html>
